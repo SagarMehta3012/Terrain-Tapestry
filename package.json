@@ -1,0 +1,18 @@
+{
+  "name": "terrain-tapestry",
+  "version": "1.0.0",
+  "description": "Terrain Tapestry — landscape architecture journal website with contact-form backend",
+  "type": "module",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node server/index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "nodemailer": "^6.9.13"
+  }
+}
